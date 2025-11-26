@@ -140,7 +140,7 @@ export default function WhyUsPage() {
               <span className="text-red-400 font-semibold">🏆 #1 Blood Donation Platform</span>
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 slide-in-left" style={{ animationDelay: '0.1s' }}>
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 slide-in-left" style={{ animationDelay: '0.1s' }}>
               Why Choose <br />
               <span className="gradient-text animate-gradient">KKF Pulse?</span>
             </h1>
@@ -148,7 +148,7 @@ export default function WhyUsPage() {
               by Klinkara Foundation
             </p>
 
-            <p className="text-lg md:text-xl text-gray-300 mb-8 slide-in-left" style={{ animationDelay: '0.2s' }}>
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 md:mb-8 slide-in-left px-4" style={{ animationDelay: '0.2s' }}>
               We're not just an app – we're a life-saving community that connects heroes with those in need, instantly and efficiently.
             </p>
 
@@ -168,7 +168,7 @@ export default function WhyUsPage() {
       {/* Stats Section */}
       <section className="py-20 px-4 relative">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
             {[
               { icon: Users, number: '50,000+', label: 'Active Donors', color: 'text-red-500' },
               { icon: Heart, number: '10,000+', label: 'Lives Saved', color: 'text-orange-500' },
@@ -197,7 +197,7 @@ export default function WhyUsPage() {
 
           <div className="space-y-24">
             {/* Benefit 1 */}
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="fade-in-section order-2 md:order-1">
                 <div className="image-placeholder rounded-3xl h-[400px] w-full">
                   <span className="text-xl">Lightning Fast Search Image</span>

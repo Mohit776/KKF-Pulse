@@ -97,14 +97,14 @@ export default function About() {
                     <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-blue-500 rounded-full blur-3xl"></div>
                 </div>
 
-                <div className="max-w-7xl mx-auto text-center z-10">
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6 fade-in-up">
+                <div className="max-w-7xl mx-auto text-center z-10 px-4">
+                    <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 fade-in-up">
                         About <span className="gradient-text animate-gradient">KKF Pulse</span>
                     </h1>
-                    <p className="text-sm text-gray-400 mb-4 fade-in-up" style={{ animationDelay: '0.1s' }}>
+                    <p className="text-xs sm:text-sm text-gray-400 mb-3 md:mb-4 fade-in-up" style={{ animationDelay: '0.1s' }}>
                         A Klinkara Foundation Initiative
                     </p>
-                    <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto fade-in-up" style={{ animationDelay: '0.2s' }}>
+                    <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto fade-in-up px-4" style={{ animationDelay: '0.2s' }}>
                         Connecting lives through the power of blood donation. We're on a mission to make blood donation accessible, efficient, and impactful.
                     </p>
                 </div>
@@ -113,7 +113,7 @@ export default function About() {
             {/* Mission Section */}
             <section className="py-20 px-4 relative">
                 <div className="max-w-7xl mx-auto">
-                    <div className="grid md:grid-cols-2 gap-12 items-center">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-center">
                         <div className="fade-in-section">
                             <div className="glass p-8 rounded-3xl">
                                 <Target className="w-16 h-16 text-red-500 mb-4" />
@@ -154,7 +154,7 @@ export default function About() {
                         Our <span className="gradient-text">Core Values</span>
                     </h2>
 
-                    <div className="grid md:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
                         {[
                             {
                                 icon: Heart,
@@ -192,7 +192,7 @@ export default function About() {
                         Our <span className="gradient-text">Impact</span>
                     </h2>
 
-                    <div className="grid md:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
                         {[
                             { number: '50,000+', label: 'Active Donors', color: 'from-red-600 to-orange-600' },
                             { number: '10,000+', label: 'Lives Saved', color: 'from-orange-600 to-green-600' },

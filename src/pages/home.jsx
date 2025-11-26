@@ -136,7 +136,7 @@ export default function Home() {
           {/* Left Content */}
           <div className="text-center md:text-left">
             <div className="float mb-8 md:hidden">
-              <img src="/KKF/logo_1.png" alt="KKF Pulse Logo" className="w-32 h-32 mx-auto rounded-full" />
+              <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF Pulse Logo" className="w-32 h-32 mx-auto rounded-full" />
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold mb-6 slide-in-left">
@@ -304,7 +304,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="glass p-12 md:p-16 rounded-3xl fade-in-section">
             <div className="text-center mb-12">
-              <img src="/KKF/logo_1.png" alt="KKF Pulse" className="w-28 h-28 mx-auto mb-6 float rounded-full" />
+              <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF Pulse" className="w-28 h-28 mx-auto mb-6 float rounded-full" />
               <h2 className="text-4xl md:text-6xl font-bold mb-6">
                 Download <span className="gradient-text">KKF Pulse</span>
               </h2>

@@ -143,14 +143,14 @@ export default function Contact() {
                     <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-blue-500 rounded-full blur-3xl"></div>
                 </div>
 
-                <div className="max-w-7xl mx-auto text-center z-10">
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6 fade-in-up">
+                <div className="max-w-7xl mx-auto text-center z-10 px-4">
+                    <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 fade-in-up">
                         Get in <span className="gradient-text animate-gradient">Touch</span>
                     </h1>
-                    <p className="text-sm text-gray-400 mb-4 fade-in-up" style={{ animationDelay: '0.1s' }}>
+                    <p className="text-xs sm:text-sm text-gray-400 mb-3 md:mb-4 fade-in-up" style={{ animationDelay: '0.1s' }}>
                         Contact Klinkara Foundation
                     </p>
-                    <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto fade-in-up" style={{ animationDelay: '0.2s' }}>
+                    <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto fade-in-up px-4" style={{ animationDelay: '0.2s' }}>
                         Have questions or need support? We're here to help you 24/7. Reach out to us and we'll respond as soon as possible.
                     </p>
                 </div>
@@ -159,7 +159,7 @@ export default function Contact() {
             {/* Contact Info Cards */}
             <section className="py-20 px-4 relative">
                 <div className="max-w-7xl mx-auto">
-                    <div className="grid md:grid-cols-3 gap-8 mb-20">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-20">
                         {[
                             {
                                 icon: Phone,
@@ -193,7 +193,7 @@ export default function Contact() {
                     </div>
 
                     {/* Contact Form */}
-                    <div className="grid md:grid-cols-2 gap-12 items-start">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
                         {/* Form */}
                         <div className="fade-in-section">
                             <h2 className="text-4xl font-bold mb-6">
