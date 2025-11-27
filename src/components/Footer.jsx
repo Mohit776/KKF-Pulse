@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className="flex flex-col items-center gap-6 mb-8">
                     {/* Logo and Branding */}
                     <div className="flex items-center gap-3">
-                        <img src="/KKF/logo_1.png" alt="KKF Pulse Logo" className="h-12 w-12 rounded-full" />
+                        <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF Pulse Logo" className="h-12 w-12 rounded-full" />
                         <div className="flex flex-col">
                             <span className="text-2xl font-bold bg-gradient-to-r from-red-400 via-orange-400 to-red-500 bg-clip-text text-transparent">
                                 KKF Pulse

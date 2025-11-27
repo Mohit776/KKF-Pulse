@@ -339,7 +339,7 @@ export default function Contact() {
 
                 <div className="max-w-4xl mx-auto relative z-10 text-center">
                     <div className="glass p-12 md:p-16 rounded-3xl fade-in-section">
-                        <img src="/assets/icon.png" alt="KKF Pulse" className="w-28 h-28 mx-auto mb-6 float rounded-full" />
+                        <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF Pulse" className="w-28 h-28 mx-auto mb-6 float rounded-full" />
                         <h2 className="text-4xl md:text-5xl font-bold mb-6">
                             Download <span className="gradient-text">KKF Pulse</span>
                         </h2>

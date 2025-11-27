@@ -436,7 +436,7 @@ export default function WhyUsPage() {
 
         <div className="max-w-5xl mx-auto text-center relative z-10">
           <div className="glass p-12 md:p-16 rounded-3xl fade-in-section">
-            <img src="/KKF/logo_1.png" alt="KKF Pulse" className="w-28 h-28 mx-auto mb-6 float rounded-full" />
+            <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF Pulse" className="w-28 h-28 mx-auto mb-6 float rounded-full" />
             <h2 className="text-4xl md:text-6xl font-bold mb-6">
               Ready to Be a <span className="gradient-text">Hero?</span>
             </h2>

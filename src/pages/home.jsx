@@ -176,7 +176,7 @@ export default function Home() {
           {/* Right - Hero Image */}
           <div className="hidden md:block fade-in-up" style={{ animationDelay: '0.3s' }}>
             <img
-              src="/assets/app_mockup.png"
+              src="/kkf1.png"
               alt="KKF Pulse App Mockup"
               className="rounded-3xl h-[500px] w-full object-cover shadow-2xl border-4 border-gray-900/50"
             />
@@ -194,9 +194,8 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
             {/* Image Placeholder */}
             <div className="fade-in-section order-2 md:order-1">
-              <div className="image-placeholder rounded-3xl h-[400px] w-full">
-                <span className="text-xl">Why Us Section Image</span>
-              </div>
+              <img src='/KKF2.png' className="image-placeholder rounded-3xl h-[600px] w-full" />
+
             </div>
 
             {/* Content */}
@@ -234,13 +233,12 @@ export default function Home() {
           </p>
 
           {/* Image Placeholder for How It Works Diagram/Photo */}
-          <div className="mb-16 fade-in-section">
-            <div className="image-placeholder rounded-3xl h-[250px] w-full max-w-5xl mx-auto">
-              <span className="text-xl">How It Works Flow Diagram / Screenshots</span>
-            </div>
+          <div className=" fade-in-section">
+            <img src="/kkf3.png" className="image-placeholder rounded-3xl h-[500px] w-full max-w-7xl mx-auto" />
+
           </div>
 
-          <div className="grid md:grid-cols-4 gap-8">
+          {/* <div className="grid md:grid-cols-4 gap-8">
             {[
               { num: '1', title: 'Register', desc: 'Sign up in under 2 minutes with your blood type and location', color: 'from-red-600 to-orange-600' },
               { num: '2', title: 'Search', desc: 'Find donors or get notified when someone needs your blood type', color: 'from-orange-600 to-green-600' },
@@ -255,7 +253,7 @@ export default function Home() {
                 <p className="text-gray-400 text-sm">{step.desc}</p>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -286,10 +284,10 @@ export default function Home() {
 
             {/* Image Placeholder */}
             <div className="fade-in-section">
-              <div className="image-placeholder rounded-3xl h-[500px] w-full">
-                <span className="text-xl">Features Screenshot / Demo</span>
-              </div>
+              <img src='/kkf4.png' className="image-placeholder rounded-3xl h-[500px] w-full" />
+
             </div>
+
           </div>
         </div>
       </section>
