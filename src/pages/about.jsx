@@ -194,13 +194,13 @@ export default function About() {
 
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
                         {[
-                            { number: '50,000+', label: 'Active Donors', color: 'from-red-600 to-orange-600' },
-                            { number: '10,000+', label: 'Lives Saved', color: 'from-orange-600 to-green-600' },
+                            { number: '50k+', label: 'Active Donors', color: 'from-red-600 to-orange-600' },
+                            { number: '10k+', label: 'Lives Saved', color: 'from-orange-600 to-green-600' },
                             { number: '100+', label: 'Cities Covered', color: 'from-green-600 to-blue-600' },
                             { number: '24/7', label: 'Support Available', color: 'from-blue-600 to-red-600' }
                         ].map((stat, idx) => (
                             <div key={idx} className="fade-in-section glass p-8 rounded-3xl text-center hover:bg-white/10 transition-all transform hover:scale-105">
-                                <div className={`text-5xl font-bold mb-3 bg-gradient-to-r ${stat.color} bg-clip-text text-transparent`}>
+                                <div className={`text-4xl font-bold mb-3 bg-gradient-to-r ${stat.color} bg-clip-text text-transparent`}>
                                     {stat.number}
                                 </div>
                                 <div className="text-gray-300 text-lg">{stat.label}</div>

@@ -157,7 +157,7 @@ export default function Home() {
               </button>
             </div>
 
-            <div className="mt-12 grid grid-cols-3 gap-4 fade-in-up" style={{ animationDelay: '0.6s' }}>
+            <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 fade-in-up" style={{ animationDelay: '0.6s' }}>
               <div className="glass p-4 rounded-xl">
                 <div className="text-3xl font-bold text-red-500 mb-1">50K+</div>
                 <div className="text-gray-400 text-sm">Active Donors</div>
@@ -191,13 +191,13 @@ export default function Home() {
             Why <span className="gradient-text">KKF Pulse?</span>
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
             {/* Image Placeholder */}
             <div className="fade-in-section order-2 md:order-1">
-              <img 
-                src='/KKF2.png' 
+              <img
+                src='/KKF2.png'
                 alt="KKF Features"
-                className="rounded-3xl h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] w-full object-cover shadow-xl" 
+                className="rounded-3xl h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] w-full object-cover shadow-xl"
               />
             </div>
 
@@ -237,10 +237,10 @@ export default function Home() {
 
           {/* Image Placeholder for How It Works Diagram/Photo */}
           <div className="fade-in-section">
-            <img 
-              src="/kkf3.png" 
+            <img
+              src="/kkf3.png"
               alt="How it works"
-              className="rounded-3xl h-[250px] sm:h-[350px] md:h-[450px] lg:h-[500px] w-full max-w-7xl mx-auto object-cover shadow-xl" 
+              className="rounded-3xl h-[250px] sm:h-[350px] md:h-[450px] lg:h-[500px] w-full max-w-7xl mx-auto object-cover shadow-xl"
             />
           </div>
         </div>
@@ -255,7 +255,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
             {/* Features List */}
-            <div className="grid grid-cols-2 gap-4 fade-in-section">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 fade-in-section">
               {[
                 { icon: Search, title: 'Smart Search', color: 'text-red-500' },
                 { icon: Users, title: 'Community', color: 'text-orange-500' },
@@ -273,10 +273,10 @@ export default function Home() {
 
             {/* Image Placeholder */}
             <div className="fade-in-section">
-              <img 
-                src='/kkf4.png' 
+              <img
+                src='/kkf4.png'
                 alt="App Features"
-                className="rounded-3xl h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] w-full object-cover shadow-xl" 
+                className="rounded-3xl h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] w-full object-cover shadow-xl"
               />
             </div>
           </div>
