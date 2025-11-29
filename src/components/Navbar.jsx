@@ -34,7 +34,7 @@ export default function Navbar() {
                             <span className="text-xl font-bold bg-gradient-to-r from-red-400 via-orange-400 to-red-500 bg-clip-text text-transparent">
                                 KKF Pulse
                             </span>
-                            <span className="text-xs text-gray-400 font-medium">by Klinkara Foundation</span>
+                            <span className="text-xs text-gray-400 font-medium">by Klin Kaara Foundation</span>
                         </div>
                     </a>
 

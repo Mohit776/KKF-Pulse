@@ -148,7 +148,7 @@ export default function Contact() {
                         Get in <span className="gradient-text animate-gradient">Touch</span>
                     </h1>
                     <p className="text-xs sm:text-sm text-gray-400 mb-3 md:mb-4 fade-in-up" style={{ animationDelay: '0.1s' }}>
-                        Contact Klinkara Foundation
+                        Contact Klin Kaara Foundation
                     </p>
                     <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto fade-in-up px-4" style={{ animationDelay: '0.2s' }}>
                         Have questions or need support? We're here to help you 24/7. Reach out to us and we'll respond as soon as possible.
@@ -164,21 +164,21 @@ export default function Contact() {
                             {
                                 icon: Phone,
                                 title: 'Call Us',
-                                info: '+91 7897893299',
+                                info: '+91 9354676869',
                                 subInfo: 'Mon-Sun 9AM-9PM',
                                 color: 'text-red-500'
                             },
                             {
                                 icon: Mail,
                                 title: 'Email Us',
-                                info: 'info@klinkaarafoundation.org',
+                                info: 'kkfpulse@gmail.com',
                                 subInfo: 'We reply within 24 hours',
                                 color: 'text-orange-500'
                             },
                             {
                                 icon: MapPin,
                                 title: 'Visit Us',
-                                info: '11, Vekanuru, Avanigadda, Krishna, Andhra Pradesh 521121 India',
+                                info: '11, Vekanuru, Avanigadda, Krishna District, Andhra Pradesh - 521121, India',
                                 subInfo: 'India',
                                 color: 'text-green-500'
                             }
@@ -321,8 +321,8 @@ export default function Contact() {
                                 <p className="text-gray-300 leading-relaxed mb-4">
                                     For partnerships, collaborations, or media inquiries, please reach out to:
                                 </p>
-                                <a href="mailto:info@klinkaarafoundation.org" className="text-green-400 hover:text-green-300 transition-colors font-semibold">
-                                    info@klinkaarafoundation.org
+                                <a href="mailto:kkfpulse@gmail.com" className="text-green-400 hover:text-green-300 transition-colors font-semibold">
+                                    kkfpulse@gmail.com
                                 </a>
                             </div>
                         </div>
@@ -343,7 +343,7 @@ export default function Contact() {
                         <h2 className="text-4xl md:text-5xl font-bold mb-6">
                             Download <span className="gradient-text">KKF Pulse</span>
                         </h2>
-                        <p className="text-sm text-gray-400 mb-4">by Klinkara Foundation</p>
+                        <p className="text-sm text-gray-400 mb-4">by Klin Kaara Foundation</p>
                         <p className="text-xl text-gray-300 mb-8">
                             Start saving lives today. Join our community of heroes making a difference.
                         </p>

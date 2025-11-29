@@ -145,7 +145,7 @@ export default function Home() {
             </h1>
 
             <p className="text-lg md:text-xl text-gray-300 mb-4 slide-in-right" style={{ animationDelay: '0.2s' }}>
-              Connect donors with those in need instantly. Find blood donors in your area with <span className="font-bold bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">KKF Pulse</span> by <span className="font-semibold text-gray-200">Klinkara Foundation</span>.
+              Connect donors with those in need instantly. Find blood donors in your area with <span className="font-bold bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">KKF Pulse</span> by <span className="font-semibold text-gray-200">Klin Kaara Foundation</span>.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start fade-in-up" style={{ animationDelay: '0.4s' }}>
@@ -297,9 +297,9 @@ export default function Home() {
               <h2 className="text-4xl md:text-6xl font-bold mb-6">
                 Download <span className="gradient-text">KKF Pulse</span>
               </h2>
-              <p className="text-sm text-gray-400 mb-4">by Klinkara Foundation</p>
+              <p className="text-sm text-gray-400 mb-4">by Klin Kaara Foundation</p>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                Join thousands of heroes saving lives every day with Klinkara Foundation's revolutionary blood donation platform.
+                Join thousands of heroes saving lives every day with Klin Kaara Foundation's revolutionary blood donation platform.
               </p>
             </div>
 

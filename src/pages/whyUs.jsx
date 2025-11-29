@@ -134,7 +134,7 @@ export default function WhyUsPage() {
             <span className="gradient-text animate-gradient">KKF Pulse?</span>
           </h1>
           <p className="text-sm text-gray-400 mb-4 slide-in-left" style={{ animationDelay: '0.15s' }}>
-            by Klinkara Foundation
+            by Klin Kaara Foundation
           </p>
 
           <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 md:mb-8 slide-in-left max-w-3xl mx-auto" style={{ animationDelay: '0.2s' }}>
@@ -174,7 +174,7 @@ export default function WhyUsPage() {
             What Makes Us <span className="gradient-text">Different</span>
           </h2>
           <p className="text-center text-gray-400 text-base md:text-lg mb-16 max-w-3xl mx-auto fade-in-section px-4">
-            <span className="font-semibold text-gray-300">Klinkara Foundation's</span> KKF Pulse combines cutting-edge technology with a compassionate community to revolutionize blood donation.
+            <span className="font-semibold text-gray-300">Klin Kaara Foundation's</span> KKF Pulse combines cutting-edge technology with a compassionate community to revolutionize blood donation.
           </p>
 
           <div className="space-y-16 md:space-y-24">
@@ -402,7 +402,7 @@ export default function WhyUsPage() {
             <h2 className="text-3xl md:text-6xl font-bold mb-4 md:mb-6">
               Ready to Be a <span className="gradient-text">Hero?</span>
             </h2>
-            <p className="text-xs md:text-sm text-gray-400 mb-4">Join Klinkara Foundation's Mission</p>
+            <p className="text-xs md:text-sm text-gray-400 mb-4">Join Klin Kaara Foundation's Mission</p>
             <p className="text-base md:text-xl text-gray-300 mb-6 md:mb-8 max-w-2xl mx-auto px-4">
               Download KKF Pulse now and join the life-saving revolution. Your next donation could save three lives.
             </p>

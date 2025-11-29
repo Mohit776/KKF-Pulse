@@ -102,7 +102,7 @@ export default function About() {
                         About <span className="gradient-text animate-gradient">KKF Pulse</span>
                     </h1>
                     <p className="text-xs sm:text-sm text-gray-400 mb-3 md:mb-4 fade-in-up" style={{ animationDelay: '0.1s' }}>
-                        A Klinkara Foundation Initiative
+                        A Klin Kaara Foundation Initiative
                     </p>
                     <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto fade-in-up px-4" style={{ animationDelay: '0.2s' }}>
                         Connecting lives through the power of blood donation. We're on a mission to make blood donation accessible, efficient, and impactful.
@@ -121,7 +121,7 @@ export default function About() {
                                     Our <span className="gradient-text">Mission</span>
                                 </h2>
                                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                                    At KKF Pulse, a proud initiative of <span className="font-semibold text-gray-100">Klinkara Foundation</span>, we believe that saving lives should be simple and accessible. Our mission is to bridge the gap between blood donors and those in need through innovative technology.
+                                    At KKF Pulse, a proud initiative of <span className="font-semibold text-gray-100">Klin Kaara Foundation</span>, we believe that saving lives should be simple and accessible. Our mission is to bridge the gap between blood donors and those in need through innovative technology.
                                 </p>
                                 <p className="text-gray-300 text-lg leading-relaxed">
                                     We're committed to creating a world where no one loses their life due to lack of blood availability. Every donation matters, and every donor is a hero.
@@ -240,9 +240,9 @@ export default function About() {
 
                     <div className="glass p-12 rounded-3xl fade-in-section text-center">
                         <Users className="w-20 h-20 text-red-500 mx-auto mb-6" />
-                        <h3 className="text-3xl font-bold mb-4">Built with ❤️ by Klinkara Foundation</h3>
+                        <h3 className="text-3xl font-bold mb-4">Built with ❤️ by Klin Kaara Foundation</h3>
                         <p className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed">
-                            Our diverse team of developers, healthcare professionals, and community organizers at <span className="font-semibold text-gray-100">Klinkara Foundation</span> work tirelessly to ensure KKF Pulse remains the most reliable blood donation platform.
+                            Our diverse team of developers, healthcare professionals, and community organizers at <span className="font-semibold text-gray-100">Klin Kaara Foundation</span> work tirelessly to ensure KKF Pulse remains the most reliable blood donation platform.
                         </p>
                     </div>
                 </div>
