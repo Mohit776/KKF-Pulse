@@ -30,6 +30,7 @@ export default function Footer() {
                 <div className="text-center text-gray-400 text-sm border-t border-white/5 pt-6">
                     <p>&copy; {new Date().getFullYear()} <span className="font-semibold text-gray-300">Klinkara Foundation</span>. All rights reserved.</p>
                     <p className="mt-2 text-xs">A non-profit initiative to revolutionize blood donation</p>
+                    <a href='https://www.linkedin.com/in/mohitaggarwal551/' className="mt-2 text-md text-gray-500">Made with ❤️ by <span className="text-gray-400 font-semibold">Mohit Aggarwal</span></a>
                 </div>
             </div>
         </footer>

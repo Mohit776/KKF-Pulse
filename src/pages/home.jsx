@@ -178,7 +178,7 @@ export default function Home() {
             <img
               src="/kkf1.png"
               alt="KKF Pulse App Mockup"
-              className="rounded-3xl h-[500px] w-full object-cover shadow-2xl border-4 border-gray-900/50"
+              className="rounded-3xl h-[300px] md:h-[400px] lg:h-[500px] w-full object-cover shadow-2xl border-4 border-gray-900/50"
             />
           </div>
         </div>
@@ -194,8 +194,11 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
             {/* Image Placeholder */}
             <div className="fade-in-section order-2 md:order-1">
-              <img src='/KKF2.png' className="image-placeholder rounded-3xl h-[600px] w-full" />
-
+              <img 
+                src='/KKF2.png' 
+                alt="KKF Features"
+                className="rounded-3xl h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] w-full object-cover shadow-xl" 
+              />
             </div>
 
             {/* Content */}
@@ -233,27 +236,13 @@ export default function Home() {
           </p>
 
           {/* Image Placeholder for How It Works Diagram/Photo */}
-          <div className=" fade-in-section">
-            <img src="/kkf3.png" className="image-placeholder rounded-3xl h-[500px] w-full max-w-7xl mx-auto" />
-
+          <div className="fade-in-section">
+            <img 
+              src="/kkf3.png" 
+              alt="How it works"
+              className="rounded-3xl h-[250px] sm:h-[350px] md:h-[450px] lg:h-[500px] w-full max-w-7xl mx-auto object-cover shadow-xl" 
+            />
           </div>
-
-          {/* <div className="grid md:grid-cols-4 gap-8">
-            {[
-              { num: '1', title: 'Register', desc: 'Sign up in under 2 minutes with your blood type and location', color: 'from-red-600 to-orange-600' },
-              { num: '2', title: 'Search', desc: 'Find donors or get notified when someone needs your blood type', color: 'from-orange-600 to-green-600' },
-              { num: '3', title: 'Connect', desc: 'Direct communication with verified donors nearby', color: 'from-green-600 to-blue-600' },
-              { num: '4', title: 'Save Lives', desc: 'Complete donation and track your life-saving impact', color: 'from-blue-600 to-red-600' }
-            ].map((step, idx) => (
-              <div key={idx} className="fade-in-section text-center">
-                <div className={`w-16 h-16 bg-gradient-to-br ${step.color} rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4`}>
-                  {step.num}
-                </div>
-                <h3 className="text-xl font-bold mb-2">{step.title}</h3>
-                <p className="text-gray-400 text-sm">{step.desc}</p>
-              </div>
-            ))}
-          </div> */}
         </div>
       </section>
 
@@ -284,10 +273,12 @@ export default function Home() {
 
             {/* Image Placeholder */}
             <div className="fade-in-section">
-              <img src='/kkf4.png' className="image-placeholder rounded-3xl h-[500px] w-full" />
-
+              <img 
+                src='/kkf4.png' 
+                alt="App Features"
+                className="rounded-3xl h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] w-full object-cover shadow-xl" 
+              />
             </div>
-
           </div>
         </div>
       </section>
@@ -315,7 +306,7 @@ export default function Home() {
             {/* Download Buttons */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
               {/* Google Play Button */}
-              <a href="#" className="group bg-black hover:bg-gray-900 px-8 py-4 rounded-2xl transition-all transform hover:scale-105 flex items-center gap-4 min-w-[240px]">
+              <a href="https://play.google.com/store/apps/details?id=com.lakshmi_it.kkfpulse" className="group bg-black hover:bg-gray-900 px-8 py-4 rounded-2xl transition-all transform hover:scale-105 flex items-center gap-4 min-w-[240px]">
                 <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none">
                   <path d="M3 20.5V3.5C3 2.91 3.34 2.39 3.84 2.15L13.69 12L3.84 21.85C3.34 21.6 3 21.09 3 20.5Z" fill="#00D7FF" />
                   <path d="M16.81 15.12L6.05 21.34L14.54 12.85L16.81 15.12Z" fill="#FFCE00" />

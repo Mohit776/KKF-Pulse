@@ -220,6 +220,24 @@ export default function About() {
                         Passionate individuals dedicated to saving lives through technology and innovation.
                     </p>
 
+                    <div className="grid md:grid-cols-1 gap-8 mb-16 justify-center">
+                        <div className="glass p-8 rounded-3xl fade-in-section text-center max-w-md mx-auto hover:bg-white/10 transition-all transform hover:scale-105">
+                            <div className="relative w-48 h-48 mx-auto mb-6">
+                                <div className="absolute inset-0 bg-gradient-to-br from-red-500 to-orange-500 rounded-md blur-lg opacity-50 animate-pulse"></div>
+                                <img
+                                    src="/dir.jpg"
+                                    alt="Lakshmi Gudivaka"
+                                    className="w-full h-full object-cover rounded-lg border-4 border-white/10 relative z-10"
+                                />
+                            </div>
+                            <h3 className="text-2xl font-bold mb-2">Lakshmi Gudivaka</h3>
+                            <p className="text-orange-500 font-semibold mb-4">Managing Director</p>
+                            <p className="text-gray-300 text-sm leading-relaxed">
+                                Leading with compassion and vision to transform blood donation accessibility for everyone.
+                            </p>
+                        </div>
+                    </div>
+
                     <div className="glass p-12 rounded-3xl fade-in-section text-center">
                         <Users className="w-20 h-20 text-red-500 mx-auto mb-6" />
                         <h3 className="text-3xl font-bold mb-4">Built with ❤️ by Klinkara Foundation</h3>
@@ -246,12 +264,12 @@ export default function About() {
                         <p className="text-xl text-gray-300 mb-8">
                             Be part of a community that's saving lives every day. Download KKF Pulse and become a hero.
                         </p>
-                        <button
-                            onClick={() => { /* navigate('/'); setTimeout(() => document.getElementById('download')?.scrollIntoView({ behavior: 'smooth' }), 100); */ }}
+                        <a
+                            href="https://play.google.com/store/apps/details?id=com.lakshmi_it.kkfpulse"
                             className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 pulse-glow inline-flex items-center gap-2"
                         >
                             <Download className="w-5 h-5" /> Download Now
-                        </button>
+                        </a>
                     </div>
                 </div>
             </section>

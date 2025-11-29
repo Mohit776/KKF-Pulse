@@ -164,21 +164,21 @@ export default function Contact() {
                             {
                                 icon: Phone,
                                 title: 'Call Us',
-                                info: '+91 XXX-XXX-XXXX',
+                                info: '+91 7897893299',
                                 subInfo: 'Mon-Sun 9AM-9PM',
                                 color: 'text-red-500'
                             },
                             {
                                 icon: Mail,
                                 title: 'Email Us',
-                                info: 'support@kkfpulse.com',
+                                info: 'info@klinkaarafoundation.org',
                                 subInfo: 'We reply within 24 hours',
                                 color: 'text-orange-500'
                             },
                             {
                                 icon: MapPin,
                                 title: 'Visit Us',
-                                info: 'Your City, Your State',
+                                info: '11, Vekanuru, Avanigadda, Krishna, Andhra Pradesh 521121 India',
                                 subInfo: 'India',
                                 color: 'text-green-500'
                             }
@@ -321,8 +321,8 @@ export default function Contact() {
                                 <p className="text-gray-300 leading-relaxed mb-4">
                                     For partnerships, collaborations, or media inquiries, please reach out to:
                                 </p>
-                                <a href="mailto:business@kkfpulse.com" className="text-green-400 hover:text-green-300 transition-colors font-semibold">
-                                    business@kkfpulse.com
+                                <a href="mailto:info@klinkaarafoundation.org" className="text-green-400 hover:text-green-300 transition-colors font-semibold">
+                                    info@klinkaarafoundation.org
                                 </a>
                             </div>
                         </div>
