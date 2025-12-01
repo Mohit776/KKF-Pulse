@@ -116,7 +116,7 @@ export default function About() {
             </section>
 
             {/* Mission Section */}
-            <section className="py-20 px-4 relative">
+            <section className="py-10 px-4 relative">
                 <div className="max-w-7xl mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-center">
                         <div className="fade-in-section">
@@ -153,7 +153,7 @@ export default function About() {
             </section>
 
             {/* Values Section */}
-            <section className="py-20 px-4 relative">
+            <section className="py-10 px-4 relative">
                 <div className="max-w-7xl mx-auto">
                     <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 fade-in-section">
                         Our <span className="gradient-text">Core Values</span>
@@ -216,7 +216,7 @@ export default function About() {
             </section> */}
 
             {/* Team Section */}
-            <section className="py-20 px-4 relative">
+            <section className="py-10 px-4 relative">
                 <div className="max-w-7xl mx-auto">
                     <h2 className="text-4xl md:text-6xl font-bold text-center mb-8 fade-in-section">
                         Meet <span className="gradient-text">The Team</span>
@@ -254,7 +254,7 @@ export default function About() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-32 px-4 relative overflow-hidden">
+            <section className="py-16 px-4 relative overflow-hidden">
                 <div className="absolute inset-0 opacity-10">
                     <div className="absolute top-0 left-0 w-96 h-96 bg-red-500 rounded-full blur-3xl"></div>
                     <div className="absolute bottom-0 right-0 w-96 h-96 bg-orange-500 rounded-full blur-3xl"></div>

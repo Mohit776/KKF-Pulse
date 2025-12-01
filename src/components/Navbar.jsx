@@ -43,11 +43,11 @@ export default function Navbar() {
                         <a href="/" className="hover:text-red-400 transition-colors font-medium">
                             Home
                         </a>
-                        <a href="/why-us" className="hover:text-orange-400 transition-colors font-medium">
-                            Why Us
-                        </a>
                         <a href="/about" className="hover:text-blue-400 transition-colors font-medium">
                             About
+                        </a>
+                        <a href="/why-us" className="hover:text-orange-400 transition-colors font-medium">
+                            Why Us
                         </a>
                         <a href="/contact" className="hover:text-purple-400 transition-colors font-medium">
                             Contact
@@ -69,11 +69,11 @@ export default function Navbar() {
                         <a href="/" className="block w-full text-left py-2 hover:text-red-400 transition-colors" onClick={() => setMobileMenuOpen(false)}>
                             Home
                         </a>
-                        <a href="/why-us" className="block w-full text-left py-2 hover:text-orange-400 transition-colors" onClick={() => setMobileMenuOpen(false)}>
-                            Why Us
-                        </a>
                         <a href="/about" className="block w-full text-left py-2 hover:text-blue-400 transition-colors" onClick={() => setMobileMenuOpen(false)}>
                             About
+                        </a>
+                        <a href="/why-us" className="block w-full text-left py-2 hover:text-orange-400 transition-colors" onClick={() => setMobileMenuOpen(false)}>
+                            Why Us
                         </a>
                         <a href="/contact" className="block w-full text-left py-2 hover:text-purple-400 transition-colors" onClick={() => setMobileMenuOpen(false)}>
                             Contact

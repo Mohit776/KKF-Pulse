@@ -155,7 +155,7 @@ export default function WhyUsPage() {
       </section>
 
       {/* Stats Section */}
-      <section id="stats" className="py-20 px-4 relative">
+      <section id="stats" className="py-10 px-4 relative">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
             {[
@@ -175,7 +175,7 @@ export default function WhyUsPage() {
       </section>
 
       {/* Core Benefits */}
-      <section className="py-20 px-4 relative">
+      <section className="py-10 px-4 relative">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-8 fade-in-section">
             What Makes Us <span className="gradient-text">Different</span>
@@ -297,7 +297,7 @@ export default function WhyUsPage() {
       </section>
 
       {/* Comparison Section */}
-      <section className="py-20 px-4 relative">
+      <section className="py-10 px-4 relative">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 fade-in-section">
             KKF PULSE vs <span className="gradient-text">Traditional Methods</span>
@@ -346,7 +346,7 @@ export default function WhyUsPage() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-20 px-4 relative">
+      <section className="py-10 px-4 relative">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-8 fade-in-section">
             What <span className="gradient-text">Heroes Say</span>
@@ -397,7 +397,7 @@ export default function WhyUsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 md:py-32 px-4 relative overflow-hidden">
+      <section className="py-10 md:py-32 px-4 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-96 h-96 bg-red-500 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-orange-500 rounded-full blur-3xl"></div>

@@ -133,7 +133,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <section id="hero" className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden pt-20">
+      <section id="hero" className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden pt-10">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-20 left-10 w-72 h-72 bg-red-500 rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-orange-500 rounded-full blur-3xl"></div>
@@ -193,7 +193,7 @@ export default function Home() {
       </section>
 
       {/* Why Use Section */}
-      <section id="why-us" className="py-20 px-4 relative">
+      <section id="why-us" className="py-10 px-4 relative">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 fade-in-section">
             Why <span className="gradient-text">KKF PULSE?</span>
@@ -203,9 +203,9 @@ export default function Home() {
             {/* Image Placeholder */}
             <div className="fade-in-section order-2 md:order-1">
               <img
-                src='/KKF2.png'
+                src='/verified&safe.png'
                 alt="KKF Features"
-                className="rounded-3xl h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] w-full object-cover shadow-xl"
+                className="rounded-3xl h-[250px] sm:h-[300px] md:h-[300px] lg:h-[500px] w-full  shadow-xl"
               />
             </div>
 
@@ -234,7 +234,7 @@ export default function Home() {
       </section>
 
       {/* How It Works */}
-      <section id="how-it-works" className="py-20 px-4 relative">
+      <section id="how-it-works" className="py-10 px-4 relative">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-8 fade-in-section">
             How <span className="gradient-text">It Works</span>
@@ -246,16 +246,16 @@ export default function Home() {
           {/* Image Placeholder for How It Works Diagram/Photo */}
           <div className="fade-in-section">
             <img
-              src="/kkf3.png"
+              src="/Howitwork.png"
               alt="How it works"
-              className="rounded-3xl h-[250px] sm:h-[350px] md:h-[450px] lg:h-[500px] w-full max-w-7xl mx-auto object-cover shadow-xl"
+              className="rounded-3xl h-[250px] sm:h-[350px] md:h-[450px] lg:h-[500px] w-full max-w-5xl mx-auto shadow-xl"
             />
           </div>
         </div>
       </section>
 
       {/* Features Grid */}
-      <section id="features" className="py-20 px-4">
+      <section id="features" className="py-10 px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 fade-in-section">
             Powerful <span className="gradient-text">Features</span>
@@ -263,7 +263,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
             {/* Features List */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 fade-in-section">
+            <div className="grid grid-cols-2 gap-4 fade-in-section">
               {[
                 { icon: Search, title: 'Smart Search', color: 'text-red-500' },
                 { icon: Users, title: 'Community', color: 'text-orange-500' },
@@ -292,7 +292,7 @@ export default function Home() {
       </section>
 
       {/* Download Section */}
-      <section id="download" className="py-32 px-4 relative overflow-hidden">
+      <section id="download" className="py-16 px-4 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-96 h-96 bg-red-500 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-orange-500 rounded-full blur-3xl"></div>
