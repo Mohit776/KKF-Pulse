@@ -29,10 +29,10 @@ export default function Navbar() {
                 <div className="flex justify-between items-center h-20">
                     {/* Logo */}
                     <a href="/" className="flex items-center gap-3 cursor-pointer group">
-                        <img src="/KKF/logo_1.png" alt="KKF Pulse Logo" className="h-16 rounded-l-full transition-transform group-hover:scale-105" />
+                        <img src="/KKF/logo_1.png" alt="KKF PULSE Logo" className="h-16 rounded-l-full transition-transform group-hover:scale-105" />
                         <div className="hidden md:flex flex-col">
                             <span className="text-xl font-bold bg-gradient-to-r from-red-400 via-orange-400 to-red-500 bg-clip-text text-transparent">
-                                KKF Pulse
+                                KKF PULSE
                             </span>
                             <span className="text-xs text-gray-400 font-medium">by Klin Kaara Foundation</span>
                         </div>

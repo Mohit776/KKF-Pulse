@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Heart, Users, Target, Award, Download } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -23,6 +24,10 @@ export default function About() {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-900 via-red-950 to-slate-900 text-white overflow-hidden">
+            <Helmet>
+                <title>About Us - KKF Pulse</title>
+                <meta name="description" content="Learn more about Klin Kaara Foundation and our mission to bridge the gap between blood donors and those in need." />
+            </Helmet>
             <style>{`
         @keyframes gradient {
           0% { background-position: 0% 50%; }
@@ -30,7 +35,7 @@ export default function About() {
           100% { background-position: 0% 50%; }
         }
         
-        @keyframes pulse-glow {
+        @keyframes PULSE-glow {
           0%, 100% { box-shadow: 0 0 20px rgba(239, 68, 68, 0.5); }
           50% { box-shadow: 0 0 40px rgba(239, 68, 68, 0.8); }
         }
@@ -50,8 +55,8 @@ export default function About() {
           animation: gradient 8s ease infinite;
         }
         
-        .pulse-glow {
-          animation: pulse-glow 2s ease-in-out infinite;
+        .PULSE-glow {
+          animation: PULSE-glow 2s ease-in-out infinite;
         }
         
         .float {
@@ -99,7 +104,7 @@ export default function About() {
 
                 <div className="max-w-7xl mx-auto text-center z-10 px-4">
                     <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 fade-in-up">
-                        About <span className="gradient-text animate-gradient">KKF Pulse</span>
+                        About <span className="gradient-text animate-gradient">KKF PULSE</span>
                     </h1>
                     <p className="text-xs sm:text-sm text-gray-400 mb-3 md:mb-4 fade-in-up" style={{ animationDelay: '0.1s' }}>
                         A Klin Kaara Foundation Initiative
@@ -121,7 +126,7 @@ export default function About() {
                                     Our <span className="gradient-text">Mission</span>
                                 </h2>
                                 <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                                    At KKF Pulse, a proud initiative of <span className="font-semibold text-gray-100">Klin Kaara Foundation</span>, we believe that saving lives should be simple and accessible. Our mission is to bridge the gap between blood donors and those in need through innovative technology.
+                                    At KKF PULSE, a proud initiative of <span className="font-semibold text-gray-100">Klin Kaara Foundation</span>, we believe that saving lives should be simple and accessible. Our mission is to bridge the gap between blood donors and those in need through innovative technology.
                                 </p>
                                 <p className="text-gray-300 text-lg leading-relaxed">
                                     We're committed to creating a world where no one loses their life due to lack of blood availability. Every donation matters, and every donor is a hero.
@@ -139,7 +144,7 @@ export default function About() {
                                     We envision a future where blood donation is seamlessly integrated into communities worldwide, powered by technology that connects donors instantly.
                                 </p>
                                 <p className="text-gray-300 text-lg leading-relaxed">
-                                    Through KKF Pulse, we're building a sustainable ecosystem where altruism meets innovation, ensuring that life-saving blood is always just a tap away.
+                                    Through KKF PULSE, we're building a sustainable ecosystem where altruism meets innovation, ensuring that life-saving blood is always just a tap away.
                                 </p>
                             </div>
                         </div>
@@ -186,7 +191,7 @@ export default function About() {
             </section>
 
             {/* Impact Stats */}
-            <section className="py-20 px-4 relative">
+            {/* <section className="py-20 px-4 relative">
                 <div className="max-w-7xl mx-auto">
                     <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 fade-in-section">
                         Our <span className="gradient-text">Impact</span>
@@ -208,7 +213,7 @@ export default function About() {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Team Section */}
             <section className="py-20 px-4 relative">
@@ -223,7 +228,7 @@ export default function About() {
                     <div className="grid md:grid-cols-1 gap-8 mb-16 justify-center">
                         <div className="glass p-8 rounded-3xl fade-in-section text-center max-w-md mx-auto hover:bg-white/10 transition-all transform hover:scale-105">
                             <div className="relative w-48 h-48 mx-auto mb-6">
-                                <div className="absolute inset-0 bg-gradient-to-br from-red-500 to-orange-500 rounded-md blur-lg opacity-50 animate-pulse"></div>
+                                <div className="absolute inset-0 bg-gradient-to-br from-red-500 to-orange-500 rounded-md blur-lg opacity-50 animate-PULSE"></div>
                                 <img
                                     src="/dir.jpg"
                                     alt="Lakshmi Gudivaka"
@@ -242,7 +247,7 @@ export default function About() {
                         <Users className="w-20 h-20 text-red-500 mx-auto mb-6" />
                         <h3 className="text-3xl font-bold mb-4">Built with ❤️ by Klin Kaara Foundation</h3>
                         <p className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed">
-                            Our diverse team of developers, healthcare professionals, and community organizers at <span className="font-semibold text-gray-100">Klin Kaara Foundation</span> work tirelessly to ensure KKF Pulse remains the most reliable blood donation platform.
+                            Our diverse team of developers, healthcare professionals, and community organizers at <span className="font-semibold text-gray-100">Klin Kaara Foundation</span> work tirelessly to ensure KKF PULSE remains the most reliable blood donation platform.
                         </p>
                     </div>
                 </div>
@@ -257,16 +262,16 @@ export default function About() {
 
                 <div className="max-w-4xl mx-auto relative z-10 text-center">
                     <div className="glass p-12 md:p-16 rounded-3xl fade-in-section">
-                        <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF Pulse" className="w-28 h-28 mx-auto mb-6 float rounded-full" />
+                        <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF PULSE" className="w-28 h-28 mx-auto mb-6 float rounded-full" />
                         <h2 className="text-4xl md:text-5xl font-bold mb-6">
                             Join the <span className="gradient-text">Movement</span>
                         </h2>
                         <p className="text-xl text-gray-300 mb-8">
-                            Be part of a community that's saving lives every day. Download KKF Pulse and become a hero.
+                            Be part of a community that's saving lives every day. Download KKF PULSE and become a hero.
                         </p>
                         <a
                             href="https://play.google.com/store/apps/details?id=com.lakshmi_it.kkfpulse"
-                            className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 pulse-glow inline-flex items-center gap-2"
+                            className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 PULSE-glow inline-flex items-center gap-2"
                         >
                             <Download className="w-5 h-5" /> Download Now
                         </a>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Mail, Phone, MapPin, Send, MessageCircle, Clock, Download } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -56,6 +57,10 @@ export default function Contact() {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-900 via-red-950 to-slate-900 text-white overflow-hidden">
+            <Helmet>
+                <title>Contact Us - KKF Pulse</title>
+                <meta name="description" content="Get in touch with Klin Kaara Foundation. We are here to help you with any queries regarding blood donation and our platform." />
+            </Helmet>
             <style>{`
         @keyframes gradient {
           0% { background-position: 0% 50%; }
@@ -63,7 +68,7 @@ export default function Contact() {
           100% { background-position: 0% 50%; }
         }
         
-        @keyframes pulse-glow {
+        @keyframes PULSE-glow {
           0%, 100% { box-shadow: 0 0 20px rgba(239, 68, 68, 0.5); }
           50% { box-shadow: 0 0 40px rgba(239, 68, 68, 0.8); }
         }
@@ -88,8 +93,8 @@ export default function Contact() {
           animation: gradient 8s ease infinite;
         }
         
-        .pulse-glow {
-          animation: pulse-glow 2s ease-in-out infinite;
+        .PULSE-glow {
+          animation: PULSE-glow 2s ease-in-out infinite;
         }
         
         .float {
@@ -271,7 +276,7 @@ export default function Contact() {
 
                                 <button
                                     type="submit"
-                                    className="w-full bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center gap-2 pulse-glow"
+                                    className="w-full bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center gap-2 PULSE-glow"
                                 >
                                     <Send className="w-5 h-5" /> Send Message
                                 </button>
@@ -339,9 +344,9 @@ export default function Contact() {
 
                 <div className="max-w-4xl mx-auto relative z-10 text-center">
                     <div className="glass p-12 md:p-16 rounded-3xl fade-in-section">
-                        <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF Pulse" className="w-28 h-28 mx-auto mb-6 float rounded-full" />
+                        <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF PULSE" className="w-28 h-28 mx-auto mb-6 float rounded-full" />
                         <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                            Download <span className="gradient-text">KKF Pulse</span>
+                            Download <span className="gradient-text">KKF PULSE</span>
                         </h2>
                         <p className="text-sm text-gray-400 mb-4">by Klin Kaara Foundation</p>
                         <p className="text-xl text-gray-300 mb-8">
@@ -349,7 +354,7 @@ export default function Contact() {
                         </p>
                         <button
                             onClick={() => { navigate('/'); setTimeout(() => document.getElementById('download')?.scrollIntoView({ behavior: 'smooth' }), 100); }}
-                            className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 pulse-glow inline-flex items-center gap-2"
+                            className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 PULSE-glow inline-flex items-center gap-2"
                         >
                             <Download className="w-5 h-5" /> Get the App
                         </button>

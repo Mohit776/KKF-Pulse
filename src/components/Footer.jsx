@@ -9,10 +9,10 @@ export default function Footer() {
                 <div className="flex flex-col items-start gap-6">
                     {/* Logo and Branding */}
                     <div className="flex items-center gap-3">
-                        <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF Pulse Logo" className="h-12 w-12 rounded-full" />
+                        <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF PULSE Logo" className="h-12 w-12 rounded-full" />
                         <div className="flex flex-col">
                             <span className="text-2xl font-bold bg-gradient-to-r from-red-400 via-orange-400 to-red-500 bg-clip-text text-transparent">
-                                KKF Pulse
+                                KKF PULSE
                             </span>
                             <span className="text-sm text-gray-400 font-medium">by Klin Kaara Foundation</span>
                         </div>
@@ -20,9 +20,9 @@ export default function Footer() {
 
                     {/* Tagline */}
                     <p className="text-gray-300 max-w-md flex items-center gap-2">
-                        <Heart className="w-4 h-4 text-red-500 animate-pulse" />
+                        <Heart className="w-4 h-4 text-red-500 animate-PULSE" />
                         Saving lives, one donation at a time
-                        <Heart className="w-4 h-4 text-red-500 animate-pulse" />
+                        <Heart className="w-4 h-4 text-red-500 animate-PULSE" />
                     </p>
                 </div>
 

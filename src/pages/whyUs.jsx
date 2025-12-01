@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Heart, Zap, Shield, MapPin, Users, Clock, Bell, Award, CheckCircle, ArrowRight, Download, Star } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { Helmet } from 'react-helmet-async';
 
 export default function WhyUsPage() {
   useEffect(() => {
@@ -23,6 +24,12 @@ export default function WhyUsPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-red-950 to-slate-900 text-white overflow-hidden">
+
+      <Helmet>
+        <title>Why Us - KKF Pulse</title>
+        <meta name="description" content="Get in touch with Klin Kaara Foundation. We are here to help you with any queries regarding blood donation and our platform." />
+      </Helmet>
+
       <style>{`
         @keyframes gradient {
           0% { background-position: 0% 50%; }
@@ -30,7 +37,7 @@ export default function WhyUsPage() {
           100% { background-position: 0% 50%; }
         }
         
-        @keyframes pulse-glow {
+        @keyframes PULSE-glow {
           0%, 100% { box-shadow: 0 0 20px rgba(239, 68, 68, 0.5); }
           50% { box-shadow: 0 0 40px rgba(239, 68, 68, 0.8); }
         }
@@ -65,8 +72,8 @@ export default function WhyUsPage() {
           animation: gradient 8s ease infinite;
         }
         
-        .pulse-glow {
-          animation: pulse-glow 2s ease-in-out infinite;
+        .PULSE-glow {
+          animation: PULSE-glow 2s ease-in-out infinite;
         }
         
         .float {
@@ -131,7 +138,7 @@ export default function WhyUsPage() {
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 slide-in-left" style={{ animationDelay: '0.1s' }}>
             Why Choose <br />
-            <span className="gradient-text animate-gradient">KKF Pulse?</span>
+            <span className="gradient-text animate-gradient">KKF PULSE?</span>
           </h1>
           <p className="text-sm text-gray-400 mb-4 slide-in-left" style={{ animationDelay: '0.15s' }}>
             by Klin Kaara Foundation
@@ -141,7 +148,7 @@ export default function WhyUsPage() {
             We're not just an app – we're a life-saving community that connects heroes with those in need, instantly and efficiently.
           </p>
 
-          <a href="#stats" className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 pulse-glow inline-flex items-center gap-2 slide-in-left" style={{ animationDelay: '0.3s' }}>
+          <a href="#stats" className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 PULSE-glow inline-flex items-center gap-2 slide-in-left" style={{ animationDelay: '0.3s' }}>
             Explore Benefits <ArrowRight />
           </a>
         </div>
@@ -174,7 +181,7 @@ export default function WhyUsPage() {
             What Makes Us <span className="gradient-text">Different</span>
           </h2>
           <p className="text-center text-gray-400 text-base md:text-lg mb-16 max-w-3xl mx-auto fade-in-section px-4">
-            <span className="font-semibold text-gray-300">Klin Kaara Foundation's</span> KKF Pulse combines cutting-edge technology with a compassionate community to revolutionize blood donation.
+            <span className="font-semibold text-gray-300">Klin Kaara Foundation's</span> KKF PULSE combines cutting-edge technology with a compassionate community to revolutionize blood donation.
           </p>
 
           <div className="space-y-16 md:space-y-24">
@@ -187,7 +194,7 @@ export default function WhyUsPage() {
                 </div>
                 <h3 className="text-3xl md:text-5xl font-bold mb-6">Lightning Fast Matching</h3>
                 <p className="text-gray-300 text-base md:text-lg mb-6">
-                  Our advanced AI-powered algorithm finds the perfect donor match in seconds, not hours. When every second counts, KKF Pulse delivers instant results.
+                  Our advanced AI-powered algorithm finds the perfect donor match in seconds, not hours. When every second counts, KKF PULSE delivers instant results.
                 </p>
                 <ul className="grid md:grid-cols-2 gap-3">
                   {[
@@ -293,7 +300,7 @@ export default function WhyUsPage() {
       <section className="py-20 px-4 relative">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 fade-in-section">
-            KKF Pulse vs <span className="gradient-text">Traditional Methods</span>
+            KKF PULSE vs <span className="gradient-text">Traditional Methods</span>
           </h2>
 
           <div className="glass rounded-3xl overflow-hidden fade-in-section">
@@ -305,7 +312,7 @@ export default function WhyUsPage() {
                     <th className="p-4 md:p-6 text-center">
                       <div className="flex items-center justify-center gap-2">
                         <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF" className="w-6 h-6 md:w-8 md:h-8 rounded-full" />
-                        <span className="gradient-text font-bold text-sm md:text-base">KKF Pulse</span>
+                        <span className="gradient-text font-bold text-sm md:text-base">KKF PULSE</span>
                       </div>
                     </th>
                     <th className="p-4 md:p-6 text-center text-gray-400 text-sm md:text-base">Traditional</th>
@@ -345,7 +352,7 @@ export default function WhyUsPage() {
             What <span className="gradient-text">Heroes Say</span>
           </h2>
           <p className="text-center text-gray-400 text-base md:text-lg mb-16 max-w-3xl mx-auto fade-in-section px-4">
-            Real stories from real people who've made a difference with KKF Pulse.
+            Real stories from real people who've made a difference with KKF PULSE.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 md:gap-8">
@@ -353,19 +360,19 @@ export default function WhyUsPage() {
               {
                 name: 'Rajesh Kumar',
                 role: 'Donor',
-                text: 'KKF Pulse helped me donate blood when someone urgently needed O+ in my area. The process was seamless and I felt like a real hero!',
+                text: 'KKF PULSE helped me donate blood when someone urgently needed O+ in my area. The process was seamless and I felt like a real hero!',
                 rating: 5
               },
               {
                 name: 'Priya Sharma',
                 role: 'Recipient',
-                text: 'My father needed B- blood urgently. Within 15 minutes, KKF Pulse connected us with 3 donors nearby. Life-saving app!',
+                text: 'My father needed B- blood urgently. Within 15 minutes, KKF PULSE connected us with 3 donors nearby. Life-saving app!',
                 rating: 5
               },
               {
                 name: 'Amit Patel',
                 role: 'Regular Donor',
-                text: 'I\'ve donated 12 times through KKF Pulse. The verification process gives me confidence, and I love tracking my impact!',
+                text: 'I\'ve donated 12 times through KKF PULSE. The verification process gives me confidence, and I love tracking my impact!',
                 rating: 5
               }
             ].map((testimonial, idx) => (
@@ -398,13 +405,13 @@ export default function WhyUsPage() {
 
         <div className="max-w-5xl mx-auto text-center relative z-10">
           <div className="glass p-8 md:p-16 rounded-3xl fade-in-section">
-            <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF Pulse" className="w-20 h-20 md:w-28 md:h-28 mx-auto mb-6 float rounded-full" />
+            <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF PULSE" className="w-20 h-20 md:w-28 md:h-28 mx-auto mb-6 float rounded-full" />
             <h2 className="text-3xl md:text-6xl font-bold mb-4 md:mb-6">
               Ready to Be a <span className="gradient-text">Hero?</span>
             </h2>
             <p className="text-xs md:text-sm text-gray-400 mb-4">Join Klin Kaara Foundation's Mission</p>
             <p className="text-base md:text-xl text-gray-300 mb-6 md:mb-8 max-w-2xl mx-auto px-4">
-              Download KKF Pulse now and join the life-saving revolution. Your next donation could save three lives.
+              Download KKF PULSE now and join the life-saving revolution. Your next donation could save three lives.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center items-center mb-6 md:mb-8">

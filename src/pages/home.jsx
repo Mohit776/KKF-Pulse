@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Search, Bell, MapPin, Users, Clock, Shield, Zap, Phone, Mail, CheckCircle, Download } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { Helmet } from 'react-helmet-async';
 
 export default function Home() {
   useEffect(() => {
@@ -30,6 +31,13 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-red-950 to-slate-900 text-white overflow-hidden">
+
+      <Helmet>
+        <title>Home - KKF Pulse</title>
+        <meta name="description" content="Find blood donors in your area with KKF Pulse by Klin Kaara Foundation. Connect donors with those in need instantly." />
+      </Helmet>
+
+
       <style>{`
         @keyframes gradient {
           0% { background-position: 0% 50%; }
@@ -37,7 +45,7 @@ export default function Home() {
           100% { background-position: 0% 50%; }
         }
         
-        @keyframes pulse-glow {
+        @keyframes PULSE-glow {
           0%, 100% { box-shadow: 0 0 20px rgba(239, 68, 68, 0.5); }
           50% { box-shadow: 0 0 40px rgba(239, 68, 68, 0.8); }
         }
@@ -67,8 +75,8 @@ export default function Home() {
           animation: gradient 8s ease infinite;
         }
         
-        .pulse-glow {
-          animation: pulse-glow 2s ease-in-out infinite;
+        .PULSE-glow {
+          animation: PULSE-glow 2s ease-in-out infinite;
         }
         
         .float {
@@ -136,7 +144,7 @@ export default function Home() {
           {/* Left Content */}
           <div className="text-center md:text-left">
             <div className="float mb-8 md:hidden">
-              <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF Pulse Logo" className="w-32 h-32 mx-auto rounded-full" />
+              <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF PULSE Logo" className="w-32 h-32 mx-auto rounded-full" />
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold mb-6 slide-in-left">
@@ -145,11 +153,11 @@ export default function Home() {
             </h1>
 
             <p className="text-lg md:text-xl text-gray-300 mb-4 slide-in-right" style={{ animationDelay: '0.2s' }}>
-              Connect donors with those in need instantly. Find blood donors in your area with <span className="font-bold bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">KKF Pulse</span> by <span className="font-semibold text-gray-200">Klin Kaara Foundation</span>.
+              Connect donors with those in need instantly. Find blood donors in your area with <span className="font-bold bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">KKF PULSE</span> by <span className="font-semibold text-gray-200">Klin Kaara Foundation</span>.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start fade-in-up" style={{ animationDelay: '0.4s' }}>
-              <button onClick={() => scrollToSection('download')} className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 pulse-glow flex items-center justify-center gap-2">
+              <button onClick={() => scrollToSection('download')} className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 PULSE-glow flex items-center justify-center gap-2">
                 <Download className="w-5 h-5" /> Download Now
               </button>
               <button onClick={() => scrollToSection('how-it-works')} className="glass hover:bg-white/10 px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center gap-2">
@@ -157,7 +165,7 @@ export default function Home() {
               </button>
             </div>
 
-            <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 fade-in-up" style={{ animationDelay: '0.6s' }}>
+            {/* <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 fade-in-up" style={{ animationDelay: '0.6s' }}>
               <div className="glass p-4 rounded-xl">
                 <div className="text-3xl font-bold text-red-500 mb-1">50K+</div>
                 <div className="text-gray-400 text-sm">Active Donors</div>
@@ -170,14 +178,14 @@ export default function Home() {
                 <div className="text-3xl font-bold text-green-500 mb-1">24/7</div>
                 <div className="text-gray-400 text-sm">Available</div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Right - Hero Image */}
           <div className="hidden md:block fade-in-up" style={{ animationDelay: '0.3s' }}>
             <img
               src="/kkf1.png"
-              alt="KKF Pulse App Mockup"
+              alt="KKF PULSE App Mockup"
               className="rounded-3xl h-[300px] md:h-[400px] lg:h-[500px] w-full object-cover shadow-2xl border-4 border-gray-900/50"
             />
           </div>
@@ -188,7 +196,7 @@ export default function Home() {
       <section id="why-us" className="py-20 px-4 relative">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 fade-in-section">
-            Why <span className="gradient-text">KKF Pulse?</span>
+            Why <span className="gradient-text">KKF PULSE?</span>
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
@@ -232,7 +240,7 @@ export default function Home() {
             How <span className="gradient-text">It Works</span>
           </h2>
           <p className="text-center text-gray-400 mb-16 max-w-2xl mx-auto fade-in-section">
-            Getting started with KKF Pulse is simple. Follow these easy steps to save lives.
+            Getting started with KKF PULSE is simple. Follow these easy steps to save lives.
           </p>
 
           {/* Image Placeholder for How It Works Diagram/Photo */}
@@ -293,9 +301,9 @@ export default function Home() {
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="glass p-12 md:p-16 rounded-3xl fade-in-section">
             <div className="text-center mb-12">
-              <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF Pulse" className="w-28 h-28 mx-auto mb-6 float rounded-full" />
+              <img src="/KKF/Picsart_25-11-14_16-53-13-078.png" alt="KKF PULSE" className="w-28 h-28 mx-auto mb-6 float rounded-full" />
               <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                Download <span className="gradient-text">KKF Pulse</span>
+                Download <span className="gradient-text">KKF PULSE</span>
               </h2>
               <p className="text-sm text-gray-400 mb-4">by Klin Kaara Foundation</p>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
